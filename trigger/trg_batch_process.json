@@ -1,0 +1,24 @@
+{
+	"name": "trg_batch_process",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "src_to_brz",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 3,
+				"startTime": "2024-04-09T00:00:00",
+				"timeZone": "E. South America Standard Time"
+			}
+		}
+	}
+}
