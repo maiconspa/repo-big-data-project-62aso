@@ -3,44 +3,6 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "brz_to_slv",
-				"type": "ExecutePipeline",
-				"dependsOn": [
-					{
-						"activity": "src_to_brz",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"policy": {
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"waitOnCompletion": true
-				}
-			},
-			{
-				"name": "slv_to_gld",
-				"type": "ExecutePipeline",
-				"dependsOn": [
-					{
-						"activity": "brz_to_slv",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"policy": {
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"waitOnCompletion": true
-				}
-			},
-			{
 				"name": "src_to_brz",
 				"type": "ExecutePipeline",
 				"dependsOn": [],
