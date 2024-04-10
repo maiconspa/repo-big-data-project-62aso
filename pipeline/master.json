@@ -18,10 +18,6 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"pipeline": {
-						"referenceName": "brz_to_slv",
-						"type": "PipelineReference"
-					},
 					"waitOnCompletion": true
 				}
 			},
@@ -41,10 +37,6 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"pipeline": {
-						"referenceName": "slv_to_gld",
-						"type": "PipelineReference"
-					},
 					"waitOnCompletion": true
 				}
 			},
