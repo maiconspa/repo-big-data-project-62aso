@@ -1,0 +1,9 @@
+{
+	"name": "adf-big-data-project-62aso-d",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bfa9f1c6-b4f5-402a-8ea9-c894041937f3",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
