@@ -1,9 +1,9 @@
 {
-	"name": "brz_to_slv",
+	"name": "slv_to_gld",
 	"properties": {
 		"activities": [
 			{
-				"name": "Data Transformation",
+				"name": "slv_to_gld",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/rm351133@fiap.com.br/brz_to_slv"
+					"notebookPath": "/Users/rm351133@fiap.com.br/slv_to_gld"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
