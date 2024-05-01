@@ -1,6 +1,28 @@
 {
 	"name": "src_to_brz",
 	"properties": {
+		"activities": [
+			{
+				"name": "src to brz",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/rm351133@fiap.com.br/src_to_brz"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
 		"annotations": [],
 		"lastPublishTime": "2024-04-17T01:54:23Z"
 	},
